@@ -254,7 +254,9 @@ button:focus,
 
 .section-title h2 {
     margin-bottom : 5px;
-    color         : #bebece;
+    color         : #680663;
+    text-transform: uppercase;
+    border-bottom: 1px solid #680663;
     }
 
 /*-----------------------------
@@ -333,24 +335,33 @@ button:focus,
 
 .social-icon li {
     display : inline-block;
-    margin  : 0 2px;
+    margin  : 4px 2px;
     }
+.social-icon li a i {
+    padding-right: 10px;   
+}
 
 .social-icon li a {
     display       : block;
     font-size     : 12px;
-    color         : #333333;
-    width         : 34px;
+    color         : #680663;
+    width         : 95px;
+    padding-left: 10px;
+    padding-right: 10px;
     height        : 34px;
     line-height   : 33px;
     text-align    : center;
     border-radius : 2px;
     border        : 2px solid #eeeeee;
-    }
+}
+
+.social-icon li .lengthy {
+    width         : 125px;
+}
 
 .social-icon li a:hover {
     border-color : #cccccc;
-    }
+}
 
 /*-------------------
  * Expertise
@@ -468,15 +479,19 @@ button:focus,
     line-height    : 1;
     font-weight    : bold;
     text-transform : uppercase;
+    display: inline;
     }
 
 .content-item h4 {
     margin      : 0;
     line-height : 1;
+    display: inline;
     }
 
 .content-item small {
-    color : #888888;
+    float: right;
+    color : #4d4d4d;
+    display: block;
     }
 
 /*-------------------
