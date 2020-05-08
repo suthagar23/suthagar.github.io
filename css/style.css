@@ -582,3 +582,13 @@ button:focus,
     text-align : center;
     top        : 65%;
     }
+
+.header-menu {
+    padding: 10px;
+    margin-right: 10px;
+    float: right;
+}
+
+.top-menu {
+    padding: 10px
+}
